@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <div id="projects" className="w-[80%] mx-auto my-24" >
         <h1 className="text-center text-4xl text-orange-400 uppercase font-semibold mb-10">Projects</h1>
-      <div className="flex justify-evenly">
+      <div className="grid md:grid-cols-3 gap-3">
       <div className="card card-compact bg-base-400  shadow-shadowOne project1" data-aos="flip-right"  data-aos-duration="2000" data-aos-anchor=".project1">
         <div className="image-body h-80">
           <img
