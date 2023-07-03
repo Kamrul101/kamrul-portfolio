@@ -9,20 +9,20 @@ const Projects = () => {
    
 
   return (
-    <div id="projects" className="w-[80%] mx-auto my-24" >
+    <div id="projects" className="mx-2 md:w-[80%] md:mx-auto my-24" >
         <h1 className="text-center text-4xl text-orange-400 uppercase font-semibold mb-10">Projects</h1>
-      <div className="grid md:grid-cols-3 gap-3">
-      <div className="card card-compact bg-base-400  shadow-shadowOne project1" data-aos="flip-right"  data-aos-duration="2000" data-aos-anchor=".project1">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+      <div className="card card-compact bg-base-400 md:shadow-shadowOne project1" data-aos="flip-right"  data-aos-duration="2000" data-aos-anchor=".project1">
         <div className="image-body h-80">
           <img
           className="scrollImg rounded-t-xl"
             src={img1}
-            alt="Shoes"
+            alt="OtakuLet"
           />
         </div>
         <div className="card-body">
           <h2 className="card-title">Otaku Let</h2>
-          <ul className='text-xl '>
+          <ul className='text-xs md:text-xl '>
                     <li className='flex items-center'><FaArrowRight></FaArrowRight>This website can offer you some best action figure toys</li>
                     <li className='flex items-center'><FaArrowRight></FaArrowRight>You can see our action figure's</li>
                     <li className='flex items-center'><FaArrowRight></FaArrowRight>You can add action figure</li>
@@ -31,25 +31,25 @@ const Projects = () => {
                 </ul>
           
           <div className="card-actions justify-end mt-3">
-            <div><button className="btn btn-success  text-white"><a className='flex' href="https://github.com/Kamrul101/otaku-let-client"><FaLink className='me-1'></FaLink>GitHub Client</a> </button></div>
-            <div><button className="btn btn-warning  text-white"><a className='flex' href="https://github.com/Kamrul101/otaku-let-server"><FaLink className='me-1'></FaLink>GitHub Server</a> </button></div>
-            <div><button className="btn btn-error  text-white"> <a className='flex' href="https://toy-store-3764d.web.app/"><FaLink  className='me-1'></FaLink>Live Site</a> </button></div>
+            <div><button className="btn btn-sm md:btn-md btn-success  text-white"><a className='flex' href="https://github.com/Kamrul101/otaku-let-client"><FaLink className='me-1'></FaLink>GitHub Client</a> </button></div>
+            <div><button className="btn btn-sm md:btn-md btn-warning  text-white"><a className='flex' href="https://github.com/Kamrul101/otaku-let-server"><FaLink className='me-1'></FaLink>GitHub Server</a> </button></div>
+            <div><button className="btn btn-sm md:btn-md btn-error  text-white"> <a className='flex' href="https://toy-store-3764d.web.app/"><FaLink  className='me-1'></FaLink>Live Site</a> </button></div>
             
 
           </div>
         </div>
       </div>
-      <div className="card card-compact  bg-base-400  shadow-shadowOne project2" data-aos="flip-up"  data-aos-duration="2000" data-aos-anchor=".project2">
+      <div className="card card-compact  bg-base-400  md:shadow-shadowOne project2" data-aos="flip-up"  data-aos-duration="2000" data-aos-anchor=".project2">
         <div className="image-body h-80">
           <img
           className="scrollImg rounded-t-xl"
             src={img3}
-            alt="Shoes"
+            alt="Bucket Head"
           />
         </div>
         <div className="card-body">
           <h2 className="card-title">Bucket Head</h2>
-          <ul className='text-xl '>
+          <ul className='text-xs md:text-xl '>
                 <li className='flex items-center'><FaArrowRight></FaArrowRight>This website can offer you some best Class</li>
                 <li className='flex items-center'><FaArrowRight></FaArrowRight>You can see our class</li>
                 <li className='flex items-center'><FaArrowRight></FaArrowRight>You can see our instructor</li>
@@ -57,24 +57,24 @@ const Projects = () => {
                 <li className='flex items-center'><FaArrowRight></FaArrowRight>We have 2 types of login option(Email/Password, Google)</li>
             </ul>
           <div className="card-actions justify-end mt-3">
-            <div><button className="btn btn-success  text-white"><a className='flex' href="https://github.com/Kamrul101/bucket-head-client"><FaLink className='me-1'></FaLink>GitHub Client</a> </button></div>
-            <div><button className="btn btn-warning  text-white"><a className='flex' href="https://github.com/Kamrul101/bucket-head-server"><FaLink className='me-1'></FaLink>GitHub Server</a> </button></div>
-            <div><button className="btn btn-error  text-white"> <a className='flex' href="https://summer-school-3817d.web.app/"><FaLink className='me-1'></FaLink>Live Site</a> </button></div>
+            <div><button className="btn btn-sm md:btn-md btn-success  text-white"><a className='flex' href="https://github.com/Kamrul101/bucket-head-client"><FaLink className='me-1'></FaLink>GitHub Client</a> </button></div>
+            <div><button className="btn btn-sm md:btn-md btn-warning  text-white"><a className='flex' href="https://github.com/Kamrul101/bucket-head-server"><FaLink className='me-1'></FaLink>GitHub Server</a> </button></div>
+            <div><button className="btn btn-sm md:btn-md btn-error  text-white"> <a className='flex' href="https://summer-school-3817d.web.app/"><FaLink className='me-1'></FaLink>Live Site</a> </button></div>
             
           </div>
         </div>
       </div>
-      <div className="card card-compact  bg-base-400  shadow-shadowOne project3" data-aos="flip-left"  data-aos-duration="2000" data-aos-anchor=".project3">
+      <div className="card card-compact  bg-base-400  md:shadow-shadowOne project3" data-aos="flip-left"  data-aos-duration="2000" data-aos-anchor=".project3">
         <div className="image-body h-80">
           <img
           className="scrollImg rounded-t-xl"
             src={img2}
-            alt="Shoes"
+            alt="Deshi Bhozon"
           />
         </div>
         <div className="card-body">
           <h2 className="card-title">Deshi Bhozon</h2>
-          <ul className='text-xl '>
+          <ul className='text-xs md:text-xl '>
                     <li className='flex items-center'><FaArrowRight></FaArrowRight>This website can offer you some recipe's of best chef</li>
                     <li className='flex items-center'><FaArrowRight></FaArrowRight>You can see our chef's details</li>
                     <li className='flex items-center'><FaArrowRight></FaArrowRight>And the recipe's they are offering</li>
@@ -82,9 +82,9 @@ const Projects = () => {
                     <li className='flex items-center'><FaArrowRight></FaArrowRight>If you want to make it you have the instruction</li>
                 </ul>
           <div className="card-actions justify-end mt-3">
-            <div><button className="btn btn-success  text-white"><a className='flex' href="https://github.com/Kamrul101/deshi-bhozon-client"><FaLink className='me-1'></FaLink>GitHub Client</a> </button></div>
-            <div><button className="btn btn-warning  text-white"><a className='flex' href="https://github.com/Kamrul101/deshi-bhozon-server"><FaLink className='me-1'></FaLink>GitHub Server</a> </button></div>
-            <div><button className="btn btn-error  text-white"> <a className='flex' href="https://recipe-hunter-client.web.app/"><FaLink className='me-1'></FaLink>Live Site</a> </button></div>
+            <div><button className="btn btn-sm md:btn-md btn-success  text-white"><a className='flex' href="https://github.com/Kamrul101/deshi-bhozon-client"><FaLink className='me-1'></FaLink>GitHub Client</a> </button></div>
+            <div><button className="btn btn-sm md:btn-md btn-warning  text-white"><a className='flex' href="https://github.com/Kamrul101/deshi-bhozon-server"><FaLink className='me-1'></FaLink>GitHub Server</a> </button></div>
+            <div><button className="btn btn-sm md:btn-md btn-error  text-white"> <a className='flex' href="https://recipe-hunter-client.web.app/"><FaLink className='me-1'></FaLink>Live Site</a> </button></div>
             
           </div>
         </div>

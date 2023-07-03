@@ -22,7 +22,7 @@ const navLinks = Links.map(({link,title,_id})=> <li key={_id} className="px-2 te
     </li>)
 const Navbar = () => {
   return (
-    <div className="md:w-[80%] mx-auto mb-2 sticky top-0 z-50 bg-slate-800">
+    <div className="w-full md:w-[80%] md:mx-auto mb-2 sticky top-0 z-50 bg-slate-800">
       <div className="navbar border-b-[1px] border-b-gray-600 ">
         <div className="navbar-start">
           <div className="dropdown">
@@ -52,7 +52,7 @@ const Navbar = () => {
           </div>
           <div className="flex items-center text-2xl">
           <Link to='/'><img className="rounded-full border-double border-2 border-[#c76617]" src={logo} style={{width:'80px', }} alt="" /></Link>
-          <h1 className="pl-3">Kamrul</h1>
+          <h1 className="pl-3 uppercase">Kamrul</h1>
           </div>
         </div>
         <div className="navbar-end hidden lg:flex">

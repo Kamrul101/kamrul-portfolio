@@ -10,8 +10,8 @@ const Education = () => {
                 <h1 className='text-4xl py-4'>Educational Qualification</h1>
             </div>
             <div>
-            <div className='flex gap-10'>
-                <div className='w-1/2 border-l-[6px] border-black h-[400px]'>
+            <div className='flex flex-col md:flex-row gap-10'>
+                <div className='md:w-1/2 border-l-[6px] border-black h-[400px]'>
                 <ResumeCard
                 title="BSc in Information and Communication Engineering"
                 subTitle="Daffodil International University (2020 - present)"
@@ -20,7 +20,7 @@ const Education = () => {
                 ></ResumeCard>
                 </div>
                 
-                <div className='w-1/2 border-l-[6px] border-black h-[400px] '>
+                <div className='md:w-1/2 border-l-[6px] border-black h-[400px] '>
                 <ResumeCard
                 title="Higher Secondary Certificate"
                 subTitle="Adamjee Cantonmnet College"

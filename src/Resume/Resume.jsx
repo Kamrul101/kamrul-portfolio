@@ -10,7 +10,7 @@ const Resume = () => {
     const [skillData, setSkillData]=useState(false);
 
     return (
-        <div className='w-[80%] mx-auto mb-20'>
+        <div className='mx-3 md:w-[80%] md:mx-auto mb-20'>
             <h1 className='text-center text-4xl uppercase font-semibold py-10'>My Resume</h1>
             <div >
                 <ul className='grid grid-cols-2 text-center'>

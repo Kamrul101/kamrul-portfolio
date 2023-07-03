@@ -18,17 +18,17 @@ import "./Features.css";
 
 const Features = () => {
   return (
-    <div id="features" className="w-[80%] mx-auto my-24">
-      <div className="flex items-center gap-12">
-      <div className="w-[40%] right" data-aos="fade-right"  data-aos-duration="2000" data-aos-anchor=".right">
-        <h1 className="uppercase text-3xl font-semibold text-orange-400">About Me</h1>
-        <p className="text-xl mt-4 mb-10 text-justify">
+    <div id="features" className="w-full px-1 md:w-[80%] md:mx-auto my-24">
+      <div className="flex flex-col md:flex-row md:items-center md:gap-12">
+      <div className="w-full md:w-[40%] right" >
+        <h1 className="uppercase text-xl md:text-3xl font-semibold text-orange-400">About Me</h1>
+        <p className="text-sm md:text-xl mt-4 mb-10 md:text-justify">
           I am a passionate MERN stack developer with a strong foundation in
           JavaScript, React.js, Node.js, and MongoDB. Eager to kick-start my
           career in web development and contribute to innovative projects that
-          make a positive impact. I thrive in dynamic environments where I can
+          make a positive impact.<br/> I thrive in dynamic environments where I can
           collaborate with talented professionals and continuously expand my
-          skill set. As an enthusiastic learner, I stay up-to-date with the
+          skill set. <br /> As an enthusiastic learner, I stay up-to-date with the
           latest technologies and industry trends to stay ahead of the curve. I
           am actively seeking opportunities to join a growth-oriented
           organization where I can contribute my skills, learn from experienced
@@ -36,13 +36,13 @@ const Features = () => {
         </p>
         
       </div>
-      <div className="left" data-aos="fade-left"  data-aos-duration="2000" data-aos-anchor=".left" >
+      <div className="features"  >
         <h1 className="text-center text-3xl font-semibold text-orange-400 uppercase">My Skill Area</h1>
-        <div className="grid grid-cols-1 gap-8 logoStyle">
-          <div className="flex gap-16">
+        <div className="grid grid-cols-1 md:gap-8 logoStyle">
+          <div className="flex flex-col md:flex-row md:gap-16">
           <div className="">
             <h1 className="text-start font-semibold text-3xl my-6 text-orange-400 uppercase">Expertise</h1>
-            <div className="flex gap-3">
+            <div className="flex gap-3 flex-wrap">
               <img className="hover:bg-opacity-40 hover:-translate-y-2  duration-300" src={img1} alt="" />
               <img className="hover:bg-opacity-40 hover:-translate-y-2  duration-300" src={img2} alt="" />
               <img className="hover:bg-opacity-40 hover:-translate-y-2  duration-300" src={img3} alt="" />

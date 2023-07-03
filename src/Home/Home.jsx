@@ -5,6 +5,7 @@ import Features from '../Shared/Features/Features';
 import Projects from '../Shared/Projects/Projects';
 import Footer from '../Shared/Footer/Footer';
 import Resume from '../Resume/Resume';
+import Contact from '../Shared/Contact/Contact';
 
 const Home = () => {
     
@@ -16,6 +17,7 @@ const Home = () => {
             <Features></Features>
             <Projects></Projects>
             <Resume></Resume>
+            <Contact></Contact>
             <Footer></Footer>
         </div>
     );
