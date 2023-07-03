@@ -51,7 +51,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="flex items-center text-2xl">
-          <img className="rounded-full border-double border-2 border-[#c76617]" src={logo} style={{width:'80px', }} alt="" />
+          <Link to='/'><img className="rounded-full border-double border-2 border-[#c76617]" src={logo} style={{width:'80px', }} alt="" /></Link>
           <h1 className="pl-3">Kamrul</h1>
           </div>
         </div>

@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import { FaBeer, FaFacebookF,FaTwitter,FaLinkedinIn, FaDownload } from 'react-icons/fa';
 import cover from '/cover1.png'
-import cv from '/resume_of_kamrul.pdf'
+import cv from '/resume_of_kamrul.pdf';
+
 const Banner = () => {
     const [text] = useTypewriter({
         words: ['Full Stack Developer', 'React Developer', 'Frontend Developer', 'MERN Developer'],
@@ -19,8 +20,12 @@ const Banner = () => {
         anchor.download = 'resume_of_kamrul.pdf';
         anchor.click();
       }
+
+      
     return (
+        
         <div id='home' className='md:w-[80%] mx-auto flex flex-col md:flex-row items-center gap-4'>
+            
             <div className='flex flex-col gap-3 mx-5 md:w-1/2'  data-aos="fade-right"  data-aos-duration="2000">
             <div className='flex flex-col gap-3 '>
                 {/* <h4 className='text-2xl'>Welcome,</h4> */}
@@ -43,7 +48,7 @@ const Banner = () => {
                 </div>
             </div>
             </div>
-            <div className='md:w-1/2 inline-flex md:justify-end justify-center relative' data-aos="fade-left"  data-aos-duration="2000">
+            <div className='md:w-1/2 inline-flex md:justify-end justify-center relative ' data-aos="fade-left"  data-aos-duration="2000" >
                 <img className='w-[380px] h-[450px] md:w-[480px] md:h-[580px] z-10' src={cover} alt="" />
                 <div className='absolute bottom-0 md:w-[480px] md:h-[400px] w-[350px] h-[300px] bg-gradient-to-r from-[#df8939] to-[#ca7d36] shadow-shadowOne flex justify-center items-center'>
 

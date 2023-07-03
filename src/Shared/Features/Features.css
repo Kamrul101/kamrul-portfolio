@@ -1,0 +1,8 @@
+.logoStyle img{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    opacity: 75%;
+    border-radius: 15px;
+}
