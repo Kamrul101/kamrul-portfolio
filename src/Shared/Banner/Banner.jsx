@@ -49,8 +49,8 @@ const Banner = () => {
             </div>
             </div>
             <div className='md:w-1/2 inline-flex md:justify-end justify-center relative banner2' data-aos="fade-left"  data-aos-duration="2000" data-aos-anchor=".banner2" >
-                <img className='w-[380px] h-[450px] md:w-[480px] md:h-[580px] z-10' src={cover} alt="" />
-                <div className='absolute bottom-0 md:w-[480px] md:h-[400px] w-[350px] h-[300px] bg-gradient-to-r from-[#df8939] to-[#ca7d36] md:shadow-shadowOne flex justify-center items-center'>
+                <img className='w-[350px] h-[450px] md:w-[450px] md:h-[580px] z-10' src={cover} alt="" />
+                <div className='absolute bottom-0 md:w-[450px] md:h-[400px] w-[350px] h-[300px] bg-gradient-to-r from-[#df8939] to-[#ca7d36] md:shadow-shadowOne flex justify-center items-center rounded-md'>
 
                 </div>
             </div>
