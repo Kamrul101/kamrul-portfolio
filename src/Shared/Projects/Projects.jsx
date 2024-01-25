@@ -3,14 +3,51 @@ import img2 from '../../assets/projects/deshi.png'
 import img3 from '../../assets/projects/bucket.png'
 import {FaArrowRight, FaLink } from 'react-icons/fa';
 import './Projects.css'
+import CountUp from 'react-countup';
+import ScrollTrigger from 'react-scroll-trigger';
+import { useState } from 'react';
+
 
 
 const Projects = () => {
-   
+   const [counterOn, setCounterOn]=useState(false);
 
   return (
     <div id="projects" className="mx-2 md:w-[80%] md:mx-auto my-24" >
         <h1 className="text-center text-4xl text-orange-400 uppercase font-semibold mb-10">Projects</h1>
+        <div className='flex flex-col items-center  md:flex-row md:justify-evenly  gap-5 py-10'>
+          <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
+          <div className='text-4xl  font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-600'>
+            <h1>Total</h1>
+            <h1 className='text-center'>{
+              counterOn && <CountUp start={0} end={35} duration={2} delay={0} />
+              }+
+            
+            </h1>
+          </div>
+          </ScrollTrigger>
+          <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
+          <div className='text-4xl  font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-600'>
+          <h1>Frontend</h1>
+            <h1 className='text-center'>{
+              counterOn && <CountUp start={0} end={20} duration={2} delay={0} />
+              }+
+            
+            </h1>
+          </div>
+          </ScrollTrigger>
+          <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
+          <div className='text-4xl  font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-600'>
+          <h1>Full Stack</h1>
+            <h1 className='text-center'>{
+              counterOn && <CountUp start={0} end={5} duration={2} delay={0} />
+              }
+            
+            </h1>
+          </div>
+          </ScrollTrigger>
+          
+        </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
       <div className="card card-compact bg-base-400 md:shadow-shadowOne project1" data-aos="flip-right"  data-aos-duration="2000" data-aos-anchor=".project1">
         <div className="image-body h-80">

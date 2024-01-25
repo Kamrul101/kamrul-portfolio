@@ -26,10 +26,10 @@ const Banner = () => {
         
         <div id='home' className='md:w-[80%] md:mx-auto flex flex-col md:flex-row items-center gap-4'>
             
-            <div className='flex flex-col gap-3 mx-5 md:w-1/2'  >
+            <div className='flex flex-col gap-3 mx-5 md:w-1/2 banner1'  data-aos="fade-right"  data-aos-duration="2000" data-aos-anchor=".banner1" >
             <div className='flex flex-col gap-3 '>
                 {/* <h4 className='text-2xl'>Welcome,</h4> */}
-                <h1 className='text-[22px] md:text-5xl font-bold'>Hi, I am  <span className='text-orange-500 uppercase'>Kamrul Hasan Ridoy</span></h1>
+                <h1 className='text-[22px] md:text-5xl font-bold'>Hi, I am <br /></h1> <h1 className='text-orange-400 uppercase text-[22px] md:text-5xl font-bold'>Kamrul Hasan Ridoy</h1>
                 <h2 className='text-[24px] md:text-4xl font-bold mb-5'>a <span className='uppercase'>{text}<Cursor cursorColor='#fd9844'
                 cursorBlinking='false' /></span></h2>
                 
@@ -48,7 +48,7 @@ const Banner = () => {
                 </div>
             </div>
             </div>
-            <div className='md:w-1/2 inline-flex md:justify-end justify-center relative '  >
+            <div className='md:w-1/2 inline-flex md:justify-end justify-center relative banner2' data-aos="fade-left"  data-aos-duration="2000" data-aos-anchor=".banner2" >
                 <img className='w-[380px] h-[450px] md:w-[480px] md:h-[580px] z-10' src={cover} alt="" />
                 <div className='absolute bottom-0 md:w-[480px] md:h-[400px] w-[350px] h-[300px] bg-gradient-to-r from-[#df8939] to-[#ca7d36] md:shadow-shadowOne flex justify-center items-center'>
 
