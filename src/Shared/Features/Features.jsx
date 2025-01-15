@@ -15,6 +15,9 @@ import img13 from "../../assets/skills/c++.png";
 import img14 from "../../assets/skills/c.png";
 import img15 from "../../assets/skills/sql-server.png"
 import img16 from "../../assets/skills/cf.png"
+import img17 from "../../assets/skills/leetcode.png"
+import img18 from "../../assets/skills/codechef.png"
+import img19 from "../../assets/skills/hackerrank.png"
 import "./Features.css";
 
 
@@ -31,10 +34,17 @@ const Features = () => {
       
           <h1 className="uppercase text-xl md:text-3xl font-semibold text-orange-400 my-6">Competitive Programming</h1>
           <div className="flex gap-3 flex-wrap logoStyle2">
-            <img className="hover:bg-opacity-40 hover:-translate-y-2 text-white duration-300" src={img16} alt="" />
-            <img className="hover:bg-opacity-40 hover:-translate-y-2  duration-300" src={img13} alt="" />
-              <img className="hover:bg-opacity-40 hover:-translate-y-2  duration-300" src={img2} alt="" />
+           
+              <a href="https://codeforces.com/profile/FromPluto" target="_blank"><img className="hover:bg-opacity-40 hover:-translate-y-2 text-white duration-300" src={img16} alt="" /></a>
+            
+              <a href="https://leetcode.com/u/kamrul101/" target="_blank"><img className="hover:bg-opacity-40 hover:-translate-y-2 text-white duration-300" src={img17} alt="" /></a>
+            
+              <a href="https://www.codechef.com/users/frompluto" target="_blank"><img className="hover:bg-opacity-40 hover:-translate-y-2 text-white duration-300" src={img18} alt="" /></a>
+            
+              <a href="https://www.hackerrank.com/profile/FromPluto" target="_blank"><img className="hover:bg-opacity-40 hover:-translate-y-2 text-white duration-300" src={img19} alt="" /></a>
             </div>
+            <h1 className="uppercase text-xl md:text-3xl font-semibold text-orange-400 my-6">Problem Solved</h1>
+            <p className="text-3xl font-semibold">Total <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-600">1000+</span></p>
         
         
       </div>
@@ -76,7 +86,6 @@ const Features = () => {
               <img className="hover:bg-opacity-40 hover:-translate-y-2  duration-300" src={img4} alt="" />
               <img className="hover:bg-opacity-40 hover:-translate-y-2  duration-300" src={img3} alt="" />
               <img className="hover:bg-opacity-40 hover:-translate-y-2  duration-300" src={img9} alt="" />
-              {/* <img className="hover:bg-opacity-40 hover:-translate-y-2  duration-300" src={img10} alt="" /> */}
               <img className="hover:bg-opacity-40 hover:-translate-y-2  duration-300" src={img11} alt="" />
               <img className="hover:bg-opacity-40 hover:-translate-y-2  duration-300" src={img12} alt="" />
             </div>
