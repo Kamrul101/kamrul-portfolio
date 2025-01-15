@@ -29,10 +29,10 @@ const Projects = () => {
         <div className="card-body">
           <h2 className="card-title">Donate Red</h2>
           <ul className='text-xs md:text-xl '>
-                    <li className='flex items-center'><FaArrowRight></FaArrowRight>Efficient, user-friendly for quicker & easier blood donations</li>
-                    <li className='flex items-center'><FaArrowRight></FaArrowRight>Enable direct communication betw. donor and recipient</li>
+                    <li className='flex items-center'><FaArrowRight></FaArrowRight>Efficient, user-friendly for quicker blood donations</li>
+                    <li className='flex items-center'><FaArrowRight></FaArrowRight>Direct communication with donor and recipient</li>
                     <li className='flex items-center'><FaArrowRight></FaArrowRight>Enforce the 90-day donation interval</li>
-                    <li className='flex items-center'><FaArrowRight></FaArrowRight>Reduce the time needed to find matching blood donors</li>
+                    <li className='flex items-center'><FaArrowRight></FaArrowRight>Reduce the time to find matching blood donors</li>
                     <li className='flex items-center'><FaArrowRight></FaArrowRight>Notify donors instantly via web push notifications</li>
                 </ul>
           <div className="card-actions justify-end mt-3">
@@ -54,7 +54,7 @@ const Projects = () => {
         <div className="card-body">
           <h2 className="card-title">Otaku Let</h2>
           <ul className='text-xs md:text-xl '>
-                    <li className='flex items-center'><FaArrowRight></FaArrowRight>This website can offer you some best action figure toys</li>
+                    <li className='flex items-center'><FaArrowRight></FaArrowRight>Can offer you some best action figure toys</li>
                     <li className='flex items-center'><FaArrowRight></FaArrowRight>You can see our action figure's</li>
                     <li className='flex items-center'><FaArrowRight></FaArrowRight>You can add action figure</li>
                     <li className='flex items-center'><FaArrowRight></FaArrowRight>You can also see other's action figure</li>
@@ -85,7 +85,7 @@ const Projects = () => {
                 <li className='flex items-center'><FaArrowRight></FaArrowRight>You can see our class</li>
                 <li className='flex items-center'><FaArrowRight></FaArrowRight>You can see our instructor</li>
                 <li className='flex items-center'><FaArrowRight></FaArrowRight>Admin and Instructor route is available</li>
-                <li className='flex items-center'><FaArrowRight></FaArrowRight>We have 2 types of login option(Email/Password, Google)</li>
+                <li className='flex items-center'><FaArrowRight></FaArrowRight>Two types of login option</li>
             </ul>
           <div className="card-actions justify-end mt-3">
             <div><button className="btn btn-sm md:btn-md btn-success  text-white"><a className='flex' href="https://github.com/Kamrul101/bucket-head-client"><FaLink className='me-1'></FaLink>GitHub Client</a> </button></div>

@@ -15,9 +15,7 @@ const navLinks = Links.map(({link,title,_id})=> <li key={_id} className="px-2 te
       offset={-70}
       duration={500} 
       className="hover:text-orange-500">
-
         {title}
-
         </Link>
     </li>)
 const Navbar = () => {
@@ -44,14 +42,14 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 text-slate-800 rounded-box w-52"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 text-orange-600 rounded-box w-52"
             >
               {navLinks}
               
             </ul>
           </div>
-          <div className="flex items-center text-2xl">
-          <Link to='/'><img className="rounded-full border-double border-2 border-[#c76617]" src={logo} style={{width:'80px', }} alt="" /></Link>
+          <div className="flex items-center text-lg md:text-2xl">
+          <Link to='/'><img className=" rounded-full border-double border-2 border-[#c76617]" src={logo} style={{width:'60px', }} alt="" /></Link>
           <h1 className="pl-3 uppercase">Kamrul</h1>
           </div>
         </div>

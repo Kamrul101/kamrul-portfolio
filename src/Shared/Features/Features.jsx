@@ -50,7 +50,7 @@ const Features = () => {
       <div className="features"  >
         <h1 className="text-center text-3xl font-semibold text-orange-400 uppercase">My Skill Area</h1>
         <div className="grid grid-cols-1 md:gap-8 logoStyle">
-          <div className="flex flex-col md:flex-row md:gap-16">
+          <div className="flex flex-wrap flex-col md:flex-row md:gap-16">
           <div className="">
             <h1 className="text-start font-semibold text-3xl my-6 text-orange-400 uppercase">Programming Language</h1>
             <div className="flex gap-3 flex-wrap">
@@ -81,7 +81,7 @@ const Features = () => {
           </div>
           <div>
             <h1 className="text-start font-semibold text-3xl my-6 text-orange-400 uppercase">Tools & others</h1>
-            <div className="flex gap-3">
+            <div className="flex flex-wrap gap-3">
               <img className="hover:bg-opacity-40 hover:-translate-y-2  duration-300" src={img4} alt="" />
               <img className="hover:bg-opacity-40 hover:-translate-y-2  duration-300" src={img3} alt="" />
               <img className="hover:bg-opacity-40 hover:-translate-y-2  duration-300" src={img9} alt="" />
