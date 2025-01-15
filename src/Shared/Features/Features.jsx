@@ -43,8 +43,7 @@ const Features = () => {
             
               <a href="https://www.hackerrank.com/profile/FromPluto" target="_blank"><img className="hover:bg-opacity-40 hover:-translate-y-2 text-white duration-300" src={img19} alt="" /></a>
             </div>
-            <h1 className="uppercase text-xl md:text-3xl font-semibold text-orange-400 my-6">Problem Solved</h1>
-            <p className="text-3xl font-semibold">Total <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-600">1000+</span></p>
+            <h1 className="uppercase text-xl md:text-3xl font-semibold text-orange-400 my-6">Problem Solved <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-600">1000+</span></h1>
         
         
       </div>

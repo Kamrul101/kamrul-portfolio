@@ -14,9 +14,9 @@ const Education = () => {
                 <div className='md:w-1/2 border-l-[6px] border-black h-[400px]'>
                 <ResumeCard
                 title="BSc in Information and Communication Engineering"
-                subTitle="Daffodil International University (2020 - present)"
-                result="3.7/4"
-                des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+                subTitle="Daffodil International University (2020 - 2024)"
+                result="3.70/4"
+                
                 ></ResumeCard>
                 </div>
                 
@@ -25,7 +25,7 @@ const Education = () => {
                 title="Higher Secondary Certificate"
                 subTitle="Adamjee Cantonmnet College"
                 result="4.75/5"
-                des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."></ResumeCard>
+                ></ResumeCard>
                 </div>
                 
                 
