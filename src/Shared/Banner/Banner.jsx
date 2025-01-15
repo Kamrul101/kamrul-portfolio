@@ -30,14 +30,13 @@ const Banner = () => {
             <div className='flex flex-col gap-3 '>
                 {/* <h4 className='text-2xl'>Welcome,</h4> */}
                 <h1 className='text-[22px] md:text-5xl font-bold'>Hi, I am <br /></h1> <h1 className='text-orange-400 uppercase text-[22px] md:text-5xl font-bold'>Kamrul Hasan Ridoy</h1>
-                <h2 className='text-[24px] md:text-4xl font-bold mb-5'>a <span className='uppercase'>{text}<Cursor cursorColor='#fd9844'
-                cursorBlinking='false' /></span></h2>
+                {/* <h2 className='text-[24px] md:text-4xl font-bold mb-5'>a <span className='uppercase'>{text}<Cursor cursorColor='#fd9844'
+                cursorBlinking='false' /></span></h2> */}
                 
-                <p>I am an Information and Communication Engineering student. But I am a passionate MERN stack developer with a strong foundation in JavaScript, React.js, Node.js, and MongoDB. Eager to kick-start my career in web development and contribute to innovative projects that make a positive impact.</p>
+                <p>I am a recent graduate in Information and Communication Engineering with a strong passion for software engineering. My expertise lies in problem-solving and competitive programming.</p>
 
             </div>
             <div>
-                
                 <div className='flex md:flex-row flex-col gap-8 items-center justify-between mt-6 '>
                 <div className='flex gap-4'>
                     <h2 className='w-16 h-16 text-2xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-[#fd9844] cursor-pointer duration-300 bg-black bg-opacity-75 text-gray-100 '><a href="https://www.facebook.com/kamruld.ridoy/"><FaFacebookF></FaFacebookF> </a></h2>
