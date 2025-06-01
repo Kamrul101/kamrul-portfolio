@@ -23,7 +23,8 @@ const Education = () => {
                 <div className='md:w-1/2 border-l-[6px] border-black h-[400px] '>
                 <ResumeCard
                 title="Higher Secondary Certificate"
-                subTitle="Adamjee Cantonmnet College"
+                subTitle="Adamjee Cantonmnet College (2017-2018)"
+                
                 result="4.75/5"
                 ></ResumeCard>
                 </div>
